@@ -1,9 +1,9 @@
 # Model arguments
 model_name_or_path: Gensyn/Qwen2.5-0.5B-Instruct
 model_revision: main
-torch_dtype: float16  # Use FP16 precision instead of bfloat16
-attn_implementation: none  # Switch to default attention (or try another compatible one)
-dtype=torch: float16  # Use float16 here instead of bfloat16
+torch_dtype: float16
+attn_implementation: none
+dtype=torch: float16
 dtype: float16
 bf16: false
 tf32: false
