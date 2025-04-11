@@ -29,7 +29,7 @@ beta: 0.001
 max_prompt_length: 8
 max_completion_length: 16
 num_generations: 1
-use_vllm: false
+use_vllm: true
 vllm_gpu_memory_utilization: 0.2
 
 # Logging arguments
