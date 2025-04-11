@@ -4,7 +4,7 @@ model_revision: main
 torch_dtype: float16
 attn_implementation: none
 dtype=torch: float16
-dtype: float16
+dtype: torch.float16
 bf16: false
 tf32: false
 fp16: true
