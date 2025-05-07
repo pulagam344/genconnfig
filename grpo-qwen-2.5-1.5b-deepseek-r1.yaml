@@ -1,9 +1,10 @@
 # Model arguments
 model_revision: main
-torch_dtype: bfloat16
+torch_dtype: float16
 attn_implementation: flash_attention_2
 bf16: false
 tf32: false
+fp16: true
 
 # Dataset arguments
 dataset_id_or_path: 'openai/gsm8k'
